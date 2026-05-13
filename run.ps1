@@ -1,0 +1,3 @@
+Start-Process powershell -ArgumentList "conda activate amulya_py3.10; python 'C:/Users/mynam/OneDrive/Desktop/social media/pipeline/fetch_data.py'"
+Start-Process powershell -ArgumentList "conda activate amulya_py3.10; python 'C:/Users/mynam/OneDrive/Desktop/social media/pipeline/multimodal_predict.py'"
+Start-Process powershell -ArgumentList "conda activate amulya_py3.10; streamlit run 'C:/Users/mynam/OneDrive/Desktop/social media/dashboard/app1.py'"
